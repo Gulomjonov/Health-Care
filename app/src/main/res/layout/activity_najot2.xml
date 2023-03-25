@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".najot_Activity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Zaif immunitet, umumiy sovuqlanishning asosiy sababidir"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/immuma" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Immunitet - bu organizmning genetik barqarorligini saqlaydigan himoya tizimi. Bu uni viruslar, bakteriyalar, zamburug'lar, protozoa, zahar va allergenlarning atrof-muhitning kirib kelishidan himoya qiladi. Shuningdek, inson immuniteti tanani ichkaridan zararli ta'sirlardan himoya qiladi - kasalliklar va boshqa patologik jarayonlar tufayli mutatsiyaga uchragan hujayralarni yo'q qiladi va parchalanish mahsulotlarini yo'q qiladi. Boshqacha aytganda, u inson salomatligini qo'llab-quvvatlaydi.Immunitet tizimining samarali ishlashi uchun uning holatini muntazam ravishda saqlab turish va muammolarni bartaraf etish kerak. Immunitet tizimini mustahkamlash sog'lom odam uchun dolzarb masaladir. Bizning maqolamizda siz profilaktikani qanday samarali amalga oshirishni, birinchi navbatda qanday harakatlar qilish kerakligini va nimadan qochish kerakligini bilib olasiz."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Kasallikning kelib chiqish sabablari"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:textColor="#082b43"
+                    android:text="Immunitetning pasayishining eng global sababi bu bizning noto'g'ri turmush tarzimizdir.
+
+                                    Yog'li tozalangan ovqatlar, oddiy uglevodlar, kanserogenlar (dudlangan go'sht va qovurilgan ovqatlar) ustunligi bilan ovqatlanish. Bunga ortiqcha ovqatlanish ham kiradi.
+
+                                    Jismoniy faollikning etishmasligi. Bizning tanamiz sezilarli jismoniy faoliyat uchun mo'ljallangan - uning barcha tizimlari va mexanizmlari faqat ushbu shart bajarilgan taqdirdagina to'g'ri ishlaydi! Biz nima qilyapmiz? Biz asosan yotib o'tiramiz.
+
+                                    Atrof-muhit ifloslanishini. Zararli aralashmalari bo'lgan havo (ayniqsa, o'tgan yozda Moskvada bo'lgani kabi), xlorli suv, ko'plab maishiy kimyoviy moddalar, mahsulotlardagi nitratlar va boshqa qo'shimchalar har kuni bizni tajovuzkor bosqinchilar sifatida 'bombardimon qiladi'. Bu erda elektromagnit nurlanish, shovqin darajasining oshishi kuzatiladi.
+
+                                    Doimiy stress, daromadingizni yo'qotmaslik, oilangizni munosib hayot bilan ta'minlash zarurati bilan bog'liq tashvishlar, shuningdek, ortiqcha ish kuni va uy yumushlari natijasida surunkali charchoq va uyqusizlik.
+
+                                    Yomon odatlar, ya'ni chekish va spirtli ichimliklar."
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Immunitetni oshirishning fiziologik usullari.
+
+                                    Oziqlanishda hayvon va o'simlik oqsillari (ularsiz immunitet hujayralari yaxshi ishlamaydi) va barcha vitaminlar va minerallar, ayniqsa C, A, E va B vitaminlari bo'lishi kerak.
+
+                                    Proteinlar go'sht, baliq, tuxum, dukkaklilar, yong'oqlarda mavjud. B vitaminlari go'sht va jigarda, xom sarig'ida, sut mahsulotlarida, kepakli non va kepakda, urug'lar va yong'oqlarda ham mavjud. Bug'doy, o'simlik moyi va avakadoning unib chiqqan donlarida ko'p miqdorda E vitamini mavjud. A vitamini har qanday yorqin rangli sabzavot va mevalarda mavjud: sabzi, pomidor, o'rik, qovoq, paprika, shuningdek, sariyog ', tuxum, jigar.
+
+                                    Immunitetni oshirishning farmakologik usullari
+
+                                    Yiliga 2-3 marta tabiiy adaptogenlarni profilaktik qabul qilish: eleutherokokk, oltin ildiz, jenshen, echinasya, aloe. Paketda ko'rsatilgan dozaga ko'ra, ertalab va kechqurun ushbu damlamalarni oling. Stressning immunitet tizimiga ta'sirini kamaytirish uchun kechqurun limon balzamini yoki ona moyini pishiring."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

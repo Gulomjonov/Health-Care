@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".robo_Activity6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Bolalarda gastroezofagial reflyuks (qizilo'ngachning) kasalliklari"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/pishevod" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Gastroezofagial reflyuks kasalligi (GERD) surunkali qaytalanuvchi kasallik bo'lib, u oshqozonning retrograd yallig'lanishi va ingichka ichak va ovqat hazm qilish traktining ustun ishlashi natijasida yuzaga keladi. Qizilo'ngachning asosiy belgilari: tirnash xususiyati, belching, disfagiya, odinofagiya. Qizilo'ngachdan tashqari ko'rinishlar: bronxial daraxtning obstruktsiyasi, yurak disfunktsiyasi, yuqori nafas yo'llarining disfunktsiyasi, tish emalining eroziyasi. Tashxis qo'yish uchun intraezofagial pH-metriya, endoskopiya va boshqa usullar qo'llaniladi. Davolash GERDning og'irligiga va bolaning yoshiga bog'liq bo'lib, parhez va turmush tarzini o'zgartirish, antasidlar, PPI va prokinetika yoki fundoplikatsiyadan iborat."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Bolalarda gastroezofagial reflyuks kasalligini davolashning uchta yo'nalishi mavjud: dori bo'lmagan terapiya, farmakoterapiya va yurak sfinkterini jarrohlik tuzatish. Pediatrik gastroenterologning taktikasi bolaning yoshiga va kasallikning og'irligiga bog'liq. Yosh bolalarda terapiya farmakologik bo'lmagan yondashuvga, jumladan postural terapiya va ovqatlanishni tuzatishga asoslangan. Lavozim bilan davolashning mohiyati 50-600 burchak ostida ovqatlanish, uxlash vaqtida boshning va tananing yuqori qismlarining ko'tarilgan holatini saqlab turishdir. Ratsion antirefluks xususiyatlariga ega aralashmalardan foydalanishni o'z ichiga oladi (Nutrilon AR, Nutrilak AR, Humana AR). Dori-darmonlarni davolashning maqsadga muvofiqligi GERDning og'irligiga va bolaning umumiy holatiga qarab individual ravishda belgilanadi.
+
+                                  Katta yoshdagi bolalarda GERDni davolash rejasi kasallikning og'irligiga va asoratlarning mavjudligiga asoslanadi. Dori bo'lmagan terapiya ovqatlanish va turmush tarzini normallashtirishdan iborat: bosh uchini 14-20 sm ga ko'tarib uxlash, semirish uchun vazn yo'qotish choralari, qorin bo'shlig'i bosimini oshiradigan omillarni bartaraf etish, iste'mol qilinadigan oziq-ovqat miqdorini kamaytirish, yog'larning kamayishi va dietada oqsillarning ko'payishi, provokatsion dori-darmonlardan foydalanishni rad etish.
+
+                                  Pediatriyada GERD uchun ishlatiladigan farmakoterapevtik vositalar ro'yxatiga proton pompasi inhibitörleri - PPI (rabeprazol), prokinetika (domperidon), harakatni normallashtiruvchi (trimebutin), antasidlar kiradi. Dori-darmonlar va belgilangan rejimlarning kombinatsiyasi GERD shakli va zo'ravonligi bilan belgilanadi. Jarrohlik aralashuvi aniq GER, konservativ terapiyaning samarasizligi, asoratlarning rivojlanishi, GERD va hiatal churraning kombinatsiyasi uchun ko'rsatiladi. Odatda, Nissen fundoplikatsiyasi amalga oshiriladi, kamroq tez-tez - Do'rga ko'ra. Tegishli asbob-uskunalar mavjud bo'lganda, laparoskopik fundoplikatsiya qo'llaniladi."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".info_Activity7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Yangi tug'ilgan chaqaloqning vesikulopustulozi"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/jaltuh" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Yangi tug'ilgan chaqaloqlarda vesikulopustuloz - bu yuqumli kelib chiqadigan teri kasalligi bo'lib, u asosan stafilokokklar keltirib chiqaradi va ter bezlari chiqishining yallig'lanishi bilan namoyon bo'ladi. Xarakterli epidermal simptomlar vesikulalar va pustulalardir. Bolaning tashvishi, ishtahani yo'qotishi, gipertermiya qayd etiladi. Yangi tug'ilgan chaqaloqlarda vesikulopustulozni tashxislash qiyin emas va anamnez ma'lumotlarini, klinik ko'rinishlarni va umumiy laboratoriya tekshiruvlarini solishtirishdan iborat. Mahalliy davolash antiseptiklar bilan amalga oshiriladi, kasallikning tarqalishi, detoksifikatsiya va etiotrop antibiotik terapiyasi belgilanadi."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Neonatal vesikulopustulozning dastlabki bosqichlarida terapiyaning asosiy maqsadi terining sanitariyasi. Engil shakllarni davolash ambulatoriya sharoitida pediatr yoki oilaviy shifokor nazorati ostida amalga oshiriladi. Tana haroratining ko'tarilishi, KLA ning o'zgarishi, kasallikning tez-tez takrorlanishi, og'irlashtiruvchi omillarning mavjudligi (intrauterin rivojlanish anomaliyalari, erta tug'ilish, yangi tug'ilgan chaqaloqning tug'ilish travması, asfiksiya tarixi) va noqulay ijtimoiy-iqtisodiy sharoitlar, kasalxonaga yotqizish. yuqumli kasalliklar bo'limida yoki pediatriya bo'limida ko'rsatiladi.
+
+                                Dastlabki bosqichlarda mahalliy davolash pufakchalar yoki pustulalarni olib tashlashni o'z ichiga oladi. Buning uchun vazikuldan yoki xo'ppozdan tarkibni steril igna bilan aspiratsiya qiling va steril tampon (paxta yoki doka) bilan 70% spirtli eritma bilan davolang. Bolaning terisi furatsilin bilan artib tashlanadi, teri elementlarini kuyish kuniga ikki marta kaliy permanganatning 5% eritmasi, fukkorsinning spirtli eritmasi bilan amalga oshiriladi. Teri burmalarida pustulalar mavjud bo'lganda, neomitsinni o'z ichiga olgan kukun ishlatiladi.
+
+                                Isitma yoki umumiy intoksikatsiya belgilari paydo bo'lganda, keng spektrli antibiotiklar qo'llaniladi. Tanlashning boshlang'ich preparatlari ikkinchi avlod sefalosporinlari (sefuroksim, sefaklor) bo'lib, antibiogramma natijalarini olgandan so'ng, etiotropik antibakterial vositalar buyuriladi. Tana haroratining 38,5 ° C dan yuqori ko'tarilishi bilan antipiretiklar qo'llaniladi - paratsetamol, ibuprofen. Agar kerak bo'lsa, detoksifikatsiya terapiyasi o'tkaziladi - 5% glyukoza eritmasi, 0,9% NaCl.
+
+                                Yangi tug'ilgan chaqaloqlarda vesikulopustulozni dori-darmonsiz davolash ultrabinafsha nurlanishi, kaliy permanganat qo'shilishi bilan gigienik vannalar, 1: 10 000, romashka gullari, celandine damlamasini o'z ichiga oladi."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

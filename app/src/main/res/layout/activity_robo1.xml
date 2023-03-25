@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".robo_Activity1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Tug'ma yurak nuqsonlari"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/yurak" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Tug'ma yurak nuqsonlari - bu bachadonda (bola tug'ilishidan oldin) paydo bo'lgan yurak, uning qopqoq apparati va tomirlarining anatomik nuqsonlari. Ushbu nuqsonlar alohida yoki bir-biri bilan birgalikda paydo bo'lishi mumkin.
+Tug'ma yurak nuqsoni bola tug'ilgandan keyin darhol o'zini namoyon qilishi yoki yashirincha davom etishi mumkin. Tug'ma yurak nuqsonlari ko'pincha har mingta tug'ilishda 6-8 holat bilan yuzaga keladi, bu barcha nuqsonlarning 30% ni tashkil qiladi."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Tug'ma yurak kasalliklarini davolashni asosan jarrohlik (ko'p hollarda bu yagona radikal) va terapevtik (ko'pincha u yordamchi) ga bo'lish mumkin.
+
+                                  Ko'pincha jarrohlik davolash masalasi, agar u 'ko'k nuqsonlar' ga tegishli bo'lsa, bola tug'ilishidan oldin ham ko'tariladi. Shuning uchun bunday hollarda tug'ilish kardiojarrohlik shifoxonalaridagi tug'ruqxonalarda amalga oshirilishi kerak.
+
+                                  Operatsiya vaqtini keyingi sanaga qoldirish mumkin bo'lsa, terapevtik davolanish kerak."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

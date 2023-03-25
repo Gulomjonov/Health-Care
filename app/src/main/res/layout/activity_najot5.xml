@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".najot_Activity5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Katta qon tomirlarining shikastlanishi"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/qon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Asosiy qon tomirlarining shikastlanishi (yirik qon tomirlari shikastlanishi) yirik tomirlarning yaxlitligini to'liq yoki qisman buzilishidir. Ko'pincha u tashqi yoki ichki qon ketish bilan birga keladi.
+
+                                Asosiy tomirlar
+                                Hayot davomida har qanday odam jarohatlar oladi - kichik aşınmalardan tortib, hayotga mos kelmaydigan jarohatlargacha. Asosiy, ya'ni katta tomirlarning shikastlanishi shunchaki hayot uchun xavfli sharoitlarni anglatadi, chunki odam qisqa vaqt ichida ko'p qon yo'qotishi mumkin."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Kasallikning kelib chiqish sabablari"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:textColor="#082b43"
+                    android:text="Qon tomirlarining shikastlanishining sababi travma, tibbiy manipulyatsiya (yatrogen jarohatlar) yoki patologiya bo'lishi mumkin. Keling, ularni batafsil ko'rib chiqaylik:
+
+                                    Jarohatlar. Bularga teshuvchi narsalar, yo'l, maishiy va ishlab chiqarish jarohatlari, shuningdek o'q otish jarohatlari kiradi.
+
+                                    Tibbiy manipulyatsiya. Jarrohlik paytida arteriyalar va tomirlarni kateter kiritish, tikuv yoki bog'lash, shuningdek tomirdagi ponksiyon orqali amalga oshiriladigan endovaskulyar muolajalar paytida tomirlar shikastlanishi mumkin.
+
+                                    Patologiyalar. Juda kamdan-kam hollarda, tomirlar shish paydo bo'lganda shikastlanadi. Biroq, shish ko'pincha kichik arteriyalar va tomirlarga ta'sir qiladi."
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolashni kasalxonaga qadar va kasalxonaga bo'lish mumkin.
+
+                                    Kasalxonagacha (birinchi) yordam
+                                    Asosiy qon tomirlarining ochiq jarohati bilan, odamning hayotini saqlab qolish uchun siz qon ketishini to'xtatishingiz kerak.
+
+                                    Arterial qon ketishi bilan turniket shikastlanish darajasidan yuqori qo'llanilishini bilish kerak, venoz qon ketish bilan esa yara joyida bosimli bandaj qilish yaxshiroqdir. Turniketni qo'llashda uning ostiga to'qima materialini qo'yish tavsiya etiladi: doka yoki bint.
+
+                                    Shifoxona parvarishi
+                                    Kasalxona sharoitida shifokor bosim bandajini yoki turniketni olib tashlaydi, jarohatni tekshiradi va jarohati va bemorning ahvoliga qarab, keyingi harakatlarni rejalashtiradi.
+
+                                    Ko'pgina bemorlarda asosiy tomirdan bo'lmagan venoz qon ketish kasalxonaga etib borgunga qadar o'z-o'zidan to'xtaydi. Asosiy tomirlar shikastlangan bo'lsa, qon ketishi davom etishi mumkin."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

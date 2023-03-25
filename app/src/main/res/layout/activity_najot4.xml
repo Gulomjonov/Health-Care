@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".najot_Activity4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Gemorragik insult"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/insu" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Gemorragik insult (intraserebral qon ketish, eskirgan apopleksiya) - miya tomirlarining patologik o'zgargan devorlarining yorilishi yoki diapedez natijasida yuzaga keladigan miya moddasining qon ketishi. Intraserebral qon ketishidan o'lim darajasi 40% ga etadi.
+                                U insultlar orasida (ishemikdan keyin) tarqalishi bo'yicha ikkinchi o'rinda turadi, bu esa travmatik bo'lmagan subaraknoid qon ketishdan oldinda."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Kasallikning kelib chiqish sabablari"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:textColor="#082b43"
+                    android:text="Arterial gipertenziya (yuqori qon bosimi). Qon bosimining doimiy o'zgarishi tufayli tomir devori ingichka bo'lib, bir nuqtada to'liq yoki qisman yorilib ketadi. Qisman yorilish bilan qon tomir devori orqali atrofdagi to'qimalarga o'tadi, bu hodisa diapedetik qon ketish deb ataladi.
+                                    Qon tomir devorining patologiyasi, masalan, anevrizma - tomir devorining yupqalashishi tufayli protrusion.
+                                    60 yoshdan oshgan yosh, vaqt o'tishi bilan qon tomir devori ingichka bo'ladi.
+                                    Spirtli ichimliklarni suiiste'mol qilish. Spirtli ichimliklar jigarga ta'sir qiladi, bu erda eng muhim qon ivish omillari ishlab chiqariladi. Ularning ishlab chiqarilishining buzilishi qon ketish xavfini sezilarli darajada oshiradi.
+                                    Giyohvandlik. Giyohvand moddalar qon tomirlarining keskin spazmini (torayishi) va qon bosimining sakrashiga olib kelishi mumkin, natijada tomir yorilishi mumkin.
+                                    Qonni suyultiradigan antikoagulyantlar va trombolitiklar bilan davolash.
+                                    Qon kasalliklari. Bularga gemofiliya, trombotsitopeniya (trombotsitlar etishmasligi) va trombotsitopatiya (ular normal bo'lganda trombotsitlar faoliyatining buzilishi), shuningdek, yoshlarda miya qon ketishiga olib kelishi mumkin bo'lgan antifosfolipid sindromi kiradi.
+                                    Koronavirus infeksiyasi. Qon koagulyatsiyasi va antikoagulyatsion tizimlar nisbatini buzishi mumkin, bu gemorragik insult xavfini oshiradi."
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Gemorragik insult og'ir favqulodda patologiya hisoblanadi. Malakali tibbiy yordam iloji boricha tezroq, birinchi alomatlar paydo bo'lgan paytdan boshlab ko'rsatilishi kerak.
+                                   Gemorragik insultni davolashning asosi holatni kuzatish, hayotiy funktsiyalarni (nafas olish, qon bosimi, puls) kerakli darajada ushlab turish, miya shishini oldini olish va bartaraf etish va o'ziga xos jarrohlik davolashdir."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

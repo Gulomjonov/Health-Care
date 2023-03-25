@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".najot_Activity1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="O'tkir respirator (nafas) kasalliklarning belgilari"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/orvi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Nafas olish yo'llari infektsiyasining asosiy belgilari - burun oqishi, tomoq og'rig'i va yo'tal - yuqori va pastki nafas yo'llarining yallig'lanishidan kelib chiqadi. Kasalliklar, shuningdek, tana haroratining ko'tarilishi, intoksikatsiya va ko'ngil aynishi, ba'zida yo'tal va qayt qilish bilan birga keladi. Bitta virusli infektsiya o'zining mavsumiyligiga ega, boshqalari esa yil davomida teng taqsimlanadi. Kasallikning davomiyligi, qoida tariqasida, bir haftadan oshmaydi."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Kasallikning kelib chiqish sabablari"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:textColor="#082b43"
+                    android:text="Nafas olish yo'llari kasalliklarining qo'zg'atuvchisi viruslardir. Gripp virusidan tashqari, o'tkir respirator virusli infektsiyani paramiksoviruslar, koronaviruslar, rinoviruslar, adenoviruslar, parvoviruslar, parainfluenza viruslari va boshqalar vakillari keltirib chiqarishi mumkin.
+
+                                  O'tkir respirator virusli infektsiya, ayniqsa, bolalik va qarilik davrida odamlarda eng ko'p uchraydigan infektsiyadir. Masalan, 5 yoshgacha bo'lgan bolalar yiliga o'rtacha 6-8 marta o'tkir respirator virusli infektsiyadan aziyat chekishadi.
+                                  Ko'pincha nafas olish yo'llari viruslari havo orqali tarqaladi. Yo'talayotgan va hapşırganda, tupurik tomchilari bo'lgan virusli zarralar 5 metrgacha tarqalishi mumkin.
+                                  Patogenlar suv bilan va infektsiyalangan shaxsiy narsalar (idishlar va boshqalar) orqali ham yuqishi mumkin."
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Dori-darmonlar davolovchi shifokorning retsepti bo'yicha - ko'rsatmalarga muvofiq qo'llaniladi. Yuqori haroratlarda (38 ° C dan yuqori) va gipertermiyaga yomon tolerantlik holatlarida odatda antipiretiklar buyuriladi. Siz bilishingiz kerakki, kasallik paytida antipiretiklardan doimiy foydalanish istalmagan, chunki harorat bo'lmasa, asoratlarni o'tkazib yuborish mumkin. Burun shilliq qavatining shishishini bartaraf etish uchun, odatda, etti kundan ortiq bo'lmagan vazokonstriktor preparatlarini qo'llash mumkin. Yo'talni to'xtatishning samarali vositasi traxeyaga oqadigan shilliq sekretsiyadan qutulish uchun sinuslarni yuvish bo'lishi mumkin. Vaziyat qisqa vaqt ichida yaxshilangandan keyin harorat yana ko'tarilganda, kasallikning mumkin bo'lgan bakterial asoratini o'z vaqtida aniqlash uchun davolovchi shifokor bilan maslahatlashish kerak, bu qaror qabul qilingunga qadar qo'shimcha diagnostika va terapevtik choralarni talab qilishi mumkin. antibiotiklardan foydalanish bo'yicha."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

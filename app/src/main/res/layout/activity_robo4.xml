@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".robo_Activity4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Parotit"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/simtoti" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Bolalardagi parotit o'tkir yuqumli kasallik bo'lib, asosan tuprik bezlarini ta'sir qiladi, markaziy asab tizimining boshqa bezli organlari va tuzilmalarining patologiyasini keltirib chiqarishi mumkin. Kasallik parotit virusidan kelib chiqadi. INFEKTSION havo-tomchi va aloqa-maishiy yo'l bilan sodir bo'ladi. Kasallik tuprik bezlarining ko'payishi va og'rig'i, isitma, intoksikatsiya belgilari bilan namoyon bo'ladi. Tashxis fizik tekshiruv ma'lumotlari, serologik va molekulyar biologik tadqiqotlar natijalari asosida amalga oshiriladi. Davolash infektsiyaning og'irligini hisobga olgan holda tejamkor rejim, parhez, simptomatik farmakoterapiyani o'z ichiga oladi."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Parotitning engil shakllarida bemorlarga ambulator yordam ko'rsatiladi: ular uyda bo'lishlari va iloji bo'lsa, boshqa bolalar bilan aloqa qilmasliklari kerak. Parotitning o'rtacha va og'ir shakllari bilan yuqumli kasalliklar shifoxonasiga yotqizish ko'rsatiladi. Samarali etiotrop dorilar mavjud emas. Bemorlarga kasallikning klinik shakli va og'irligini hisobga olgan holda tanlangan simptomatik terapiya o'tkaziladi. Davolashning asosiy yo'nalishlari:
+
+
+                                  Rejim va parhez. Yuqori harorat va bezlarning yallig'lanishining faol namoyon bo'lishi davrida yotoqda dam olish belgilanadi. Uning qat'iy rioya qilish parotit orxit belgilari bo'lgan o'g'il bolalar uchun ayniqsa muhimdir. Chaynash paytida o'tkir og'riq va tupurik ishlab chiqarishning kamayishini hisobga olgan holda, bolalar uchun suyuq va yarim suyuq ovqat tavsiya etiladi.
+
+
+                                  Fizioterapiya. Tuprik bezlarini quruq issiqlik bilan isitish og'riqni kamaytiradi. O'g'il bolalarda moyaklar yallig'langanda, skrotum (suspensorium) uchun tayanch bandajidan foydalanish kerak. Shuningdek, birinchi kunlarda sovuq suv bilan losonlar olib boriladi, keyinchalik quruq paxta bandajlari qo'llaniladi.
+
+
+                                  Tibbiy terapiya. Bolalarda orxit, meningit va parotitning boshqa asoratlari bilan glyukokortikosteroidlar kurslari buyuriladi. Tana haroratini normallashtirish va og'riqni yo'qotish uchun steroid bo'lmagan yallig'lanishga qarshi preparatlar qo'llaniladi. Parotit pankreatitida yaxshi analjezik ta'sir antispazmodiklar tomonidan beriladi."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".info_Activity4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Yangi tug'ilgan chaqaloqlarning fiziologik sariqligi"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/max"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Yangi tug'ilgan chaqaloqlarning fiziologik sariqligi (Neonatal sariqlik) - bilirubin miqdori yuqori bo'lganligi sababli yangi tug'ilgan chaqaloqning ko'z va terining oq qismlari sarg'ish rangga ega. Qo'shimcha alomatlar haddan tashqari uyquchanlik va yomon ishtahani o'z ichiga olishi mumkin. Barcha yangi tug'ilgan chaqaloqlarning yarmidan bir oz ko'pi hayotning birinchi haftasida sezilarli darajada ikterik bo'lib qoladi, erta tug'ilgan chaqaloqlarda bu holat 80% gacha ko'tariladi. Bu kasallik emas, balki homila gemoglobinini (HbF) gemoglobin A (HbA) bilan almashtirish, ferment tizimlarining etuk emasligi va bolaning tanasining yangi atrof-muhit sharoitlariga moslashishi bilan bog'liq moslashish davridagi holat."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Neonatal sariqlik fiziologik holat (kasallik emas) bo'lganligi sababli, aksariyat hollarda davolanish talab etilmaydi.
+
+
+                                Bolaning sog'lig'i haqida tashvishlanish quyidagi hollarda yuzaga keladi:
+
+                                  bilirubin darajasi 256 mkmol/L dan (18 mg/dL) oshadi;
+
+                                hayotning birinchi kunida sariqlik qayd etiladi;
+
+                                laboratoriya parametrlarining juda tez o'sishi kuzatiladi;
+                                sariqlik ikki haftadan ortiq davom etadi:
+
+                                    Ushbu belgilar mumkin bo'lgan kasallikni aniqlash uchun diagnostik qidiruvga sabab bo'ladi: qizil qon hujayralarining parchalanishi, jigar kasalligi, infektsiyalar, hipotiroidizm yoki patologik metabolik kasalliklar.
+
+                                Davolash zarurati bilirubin darajasiga, bolaning etuklik darajasiga va sariqlikning asosiy sababiga bog'liq.
+
+                                Davolash tez-tez ovqatlanish, fototerapiya yoki qon quyish bilan amalga oshiriladi. Erta tug'ilgan chaqaloqlar uchun yanada intensiv davolash talab etiladi.
+
+                                Bolada 1 oylik bilirubin normasi 45 mkmol / l gacha."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

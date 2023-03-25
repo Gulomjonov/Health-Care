@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info_Activity2"
+    android:background="#ffffff"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:letterSpacing=".2"
+            android:padding="20dp"
+            android:shadowColor="#f1f1f1"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:text="Akusherlik falaji"
+            android:textColor="#082b43"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:src="@drawable/figure" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:letterSpacing=".2"
+            android:padding="20dp"
+            android:scaleType="centerCrop"
+            android:shadowColor="#f1f1f1"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:text="Yangi tug'ilgan chaqaloqlarda yuqori oyoq-qo'llarining mushaklarining bo'sh falajlari brakiyal pleksus yoki uni tashkil etuvchi nerv ildizlarining tug'ilish shikastlanishi natijasida yuzaga keladi. Bunga qiyin va uzoq davom etadigan tug'ilish, homilaning kattaligi va tug'ilish kanali o'rtasidagi nomuvofiqlik, homilaning patologik ko'rinishi va akusherlik yordamining turli usullaridan foydalanish yordam beradi.
+
+
+             Sinonimlar: Duchenne-Erb falaj, Duchenne-Erb yuqori falaj, yangi tug'ilgan chaqaloqlarda yuqori oyoq-qo'l mushaklarining bo'sh falaj, Dejerine-Klumpke falaj."
+            android:textColor="#082b43"
+            android:textSize="14sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Davolash"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Erta mashqlar terapiyasi, massaj, fizioterapiya, engil emal yoki gipsli shinalar yordamida dastani holatida ushlab turish; davolanmagan og'ir holatlarda ular jarrohlik davolashga murojaat qilishadi - mushaklar transplantatsiyasi yoki elkama-elka bo'g'imining artrodezi, oxirgi aralashuv 10-32 yoshdan oldin bo'lmagan bolalarda amalga oshiriladi.
+
+                                    Erta va to'g'ri davolash uchun prognoz qulaydir."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

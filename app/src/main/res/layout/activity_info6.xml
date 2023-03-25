@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".info_Activity6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Yangi tug'ilgan chaqaloqlarda sariqlik uchun fototerapiya"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/apparat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Neonatal sariqlikning fototerapiyasi (yorug'lik terapiyasi, fototerapiya) yangi tug'ilgan chaqaloqlarning fiziologik sariqligini davolash usuli bo'lib, yangi tug'ilgan chaqaloqning tana to'qimalarini ko'k nurga ta'sir qilishdan iborat.
+Sariqlikning sababi shundaki, yangi tug'ilgan chaqaloqning tanasida bilirubin miqdori ko'payadi.
+Bilirubin yorug'lik bilan yo'q qilinadi, buning natijasida u zararsiz parchalanish mahsulotlariga aylanadi va najas va siydik bilan tanadan chiqariladi va shu bilan uning qondagi darajasini pasaytiradi. Bilirubinning fotoparchalanishi to'lqin uzunligi 460-490 nanometr (ultrabinafsha nurlanish bilan adashtirmaslik kerak - 300-400 nm) bo'lgan ko'k nur ostida eng intensiv ravishda sodir bo'ladi."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Ko'rsatma bo'yicha: yuqori va / yoki pastki yorug'lik lampalari
+
+                                Yorug'lik manbai bo'yicha: lyuminestsent yoki LED
+
+                                Ilova bo'yicha: uyda foydalanish uchun tibbiy yoki maishiy"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

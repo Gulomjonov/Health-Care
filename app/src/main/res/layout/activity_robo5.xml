@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".robo_Activity5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Bolalarda ko'karishlar, burmalar, dislokatsiyalar va sinishlar"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/travma" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Yosh bolalarning suyaklari ko'p miqdorda organik birikmalarni o'z ichiga oladi, shuning uchun ular yanada elastik va moslashuvchan. Bundan tashqari, tana vazni kichik va yaxshi aniqlangan va pastki xaftaga qatlami tashqi xaftaga qaraganda qalinroq.
+                              Yurishni boshlagan chaqaloq tez-tez yiqilib tushadi, ba'zi hollarda u oqsoqlana boshlaydi va endi turishdan bosh tortadi. Agar bolada bir kundan ko'proq vaqt davomida oqsoqlik bo'lsa, unda bolaning sinishi yoki kestirib, bo'g'imning shikastlanishi yoki yo'qligini aniqlash uchun travmatolog bilan bog'lanishingiz kerak. Yosh bolalarda eng ko'p uchraydigan ko'karishlar ko'karishlar bo'lib, ko'p hollarda bir muncha vaqt o'tgach o'z-o'zidan o'tib ketadi. Ko'karishlar bilan jarohatlar joyida og'riq, shishish yoki shish paydo bo'ladi, ular kun davomida kuchayadi.
+                              Agar ko'karish kichik bo'lsa, u holda darhol ko'karish paydo bo'ladi. Chuqurroq ko'karishlar bilan gematoma faqat ikki kundan keyin jarohatlangan joyda ko'karish shaklida paydo bo'ladi. Gematoma yoki shishning kuchayishi bo'lsa, bola qiyinchilik bilan harakat qila boshlaydi va yurishni to'xtatadi. Bunday holda, bolaning ligamentlari yoki mushaklari cho'zilgan bo'lishi mumkin. Cho'zilganida, bo'g'inlar sohasida kuchli og'riq seziladi, shikastlanish joyida gematoma va shish paydo bo'ladi.
+                              Qo'shimchaning harakatida buzilishlar oddiy ko'karishlarga qaraganda ko'proq aniqlanadi. Qo'shma ba'zi harakatlarni amalga oshirishi mumkin bo'lsa-da, mushaklar ularni to'sib qo'yadi. Uzatilganda, tendon va mushaklarning yorilishi xavfi mavjud, shuning uchun qo'shilishning har qanday harakati xavflidir. Kichkina bolalarda oyoq Bilagi zo'r burilishlar eng ko'p uchraydi, ular oyoqni ehtiyotsizlik bilan ichkariga aylantirganda paydo bo'ladi. Oyoq Bilagi zo'r burilish jiddiy rentgenogramma va tekshiruvni talab qiladi, chunki u ko'pincha pastki oyoq suyaklaridagi yoriq bilan birga keladi.
+                              Agar bola oqsoq bo'lsa va oyoq sohasidagi og'riqdan shikoyat qilsa, u holda cho'zilgan belgiga mahkamlash bandaji va muz to'plami qo'llanilishi kerak. Birinchi yordam ko'rsatilgandan so'ng, bolani travmatologga ko'rsatish kerak. Faqatgina u vaziyatning murakkabligini hisobga olgan holda davolanishni buyurishi mumkin. Agar tekshiruvdan so'ng bolada suyaklarning sinishi va dislokatsiyasi bo'lmasa, u holda burilish og'rig'ini fastum-gel, indovazin va diklofenak-gel preparatlari bilan davolash mumkin."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Tibbiy muassasada og'riqni yo'qotish uchun fizioterapiya va novokain blokadalari buyurilishi mumkin.
+                                    Jiddiy jarohatlar uchun jarrohlik davolash: terini teshish va katta gematomalardan qon quyish, qo'shma bo'shliqni suyuqlikdan tozalash, antibiotiklarni yuborish.
+                                    Agar kerak bo'lsa, og'riqni yo'qotish
+                                    Og'riq yo'qolganidan keyin fizioterapiya
+                                    Tananing shikastlangan qismini yumshoq davolash
+                                    Qayta tiklash odatda 1-4 hafta ichida sodir bo'ladi
+                                    Uyda dislokatsiyani parrandalar, losonlar, kompresslar bilan davolashga urinish juda xavfli ishdir. Yangi dislokatsiya (uch kungacha) shifokor tomonidan eskisiga qaraganda ancha oson kamayishi mumkin, shuning uchun jarohatdan keyingi har bir daqiqa qimmatlidir. Hech qanday holatda dislokatsiyani o'zingiz tuzatmasligingiz kerak, chunki siz ligamentlarni, mushaklarni yirtib tashlash va hatto suyakni sindirish orqali vaziyatni yanada og'irlashtirishingiz mumkin. Qilinishi mumkin bo'lgan yagona narsa - shikastlangan odamga maksimal tinchlikni ta'minlash, sovuqni qo'llash va tez yordam chaqirish yoki tezda tez yordam xonasiga o'zingiz etib borishdir."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

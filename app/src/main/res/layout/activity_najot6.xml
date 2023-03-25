@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".najot_Activity6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Tuprik bezining adenomasi"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/adenoma" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Tuprik bezining shishi - katta va kichik so'lak bezlarining chiqarish yo'llarining epiteliysidan rivojlanadigan yaxshi o'sma.
+
+                                Tuprik bezining adenomasi
+                                Adenoma asta-sekin o'sib boradi va og'riqsiz shish paydo bo'ladi, buning natijasida yuz assimetrik bo'ladi.
+
+                                Tadqiqotchilar tuprik bezlari adenomasining paydo bo'lishi uchun uchta asosiy xavf omiliga moyil:
+
+                                zararli moddalarga ta'sir qilish - radiatsiya, xavfli ishlab chiqarishdagi ishlar, masalan, kauchuk ishlab chiqarish va asbest qazib olish bilan bog'liq bo'lganlar, bosh va bo'yin saratonini davolashda radiatsiya);
+                                viruslarning ta'siri - herpes virusi, Epstein - Barr;
+                                genetik omil.
+                                Tuprik bezining yallig'lanishi ham bilvosita xavf omillariga tegishli, ammo adenomaning aniq sabablari hali ham tibbiyotga noma'lum."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Kasallikning kelib chiqish sabablari"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Adenomaning etiologiyasi to'liq tushunilmagan. Kasallikning boshlanishining bir nechta nazariyalari mavjud: fizik-kimyoviy, virusli, polietiologik. Har bir nazariya haqiqiydir, ammo ularning hech biri adenomaning paydo bo'lishini aniq tushuntira olmaydi va kasallikning barcha sabablarini qamrab olmaydi. Bugungi kunga kelib, eng ommabop va mantiqiy polietiologik kontseptsiya bo'lib, unga ko'ra turli omillarning ta'siri hujayralarning buzilishiga olib kelishi mumkin."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Tuprik bezining adenomasini davolashning asosiy va yagona usuli jarrohlik hisoblanadi. Ko'pgina hollarda o'simtani olib tashlash bezga zarar etkazish va uning ishini buzish bilan birga keladi, shuning uchun bez ham kesiladi.
+
+                                    Agar o'simta kichik tuprik bezida shakllangan bo'lsa, u sog'lom to'qimalarda kesiladi. Ba'zida kichik benign adenoma uning qobig'i ichida chiqariladi, lekin faqat o'simta kapsulaga ega bo'lsa. Operatsiyaning ushbu versiyasi yumshoqroq, ammo bu usul pleomorfik adenomani davolashda qo'llanilmaydi. Buning sababi shundaki, bunday o'simta malign bo'lishi mumkin. Shuningdek, uning kapsulasi notekis qalinlikka ega va joylarda ingichka bo'lib qoladi, bu esa jarrohning ishini murakkablashtiradi."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

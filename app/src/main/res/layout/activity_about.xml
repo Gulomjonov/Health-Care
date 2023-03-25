@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".about_Activity"
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:text="Assalomu aleykum!"
+           tools:layout_editor_absoluteX="25dp"
+           tools:layout_editor_absoluteY="316dp"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:padding="20dp"
+           android:textStyle="bold|italic"
+           android:scaleType="centerCrop"
+           />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Ushbu INFO APPda tibbiyot sohasiga qiziquvchi insonlar uchun dunyoda uchrayotgan eng asosiy kassaliklardan bo'lgan ma'lumotlar berilgan. Bu appni bo'shlanishi kelajakda buni yanada kengaytirib, sizlar uchun taqdim etmoqchimiz!
+           "
+           android:gravity="center"
+           android:textSize="14sp"
+           android:padding="20dp"
+           android:textStyle="bold|italic"
+           android:scaleType="centerCrop"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:text="25-27 yanvar 2023 yil GITA dasturchilar akademiyasi o'tkazilgan master klassda biz uchun 'INFO app' mavzusida qisqacha ma'lumotlar berildi.
+Buning uchun GITA dasturchilar akademiyasi rahbariyatiga tashakkur bildiramiz!"
+           tools:layout_editor_absoluteX="25dp"
+           tools:layout_editor_absoluteY="316dp"
+           android:gravity="center"
+           android:textSize="14sp"
+           android:padding="20dp"
+           android:textStyle="bold|italic"
+           android:scaleType="centerCrop"
+           />
+   </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

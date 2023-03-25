@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".robo_Activity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Ichak invaginatsiyasi"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/intus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Invaginatsiya - bu ichakning bir qismi darhol uning oldidagi bo'limga burmalangan tibbiy holat. Odatda ingichka ichakni, kamroq esa yo'g'on ichakni o'z ichiga oladi. Semptomlar orasida kelishi va ketishi mumkin bo'lgan qorin og'rig'i, qusish, qorin shishishi va qonli axlat kiradi. Ko'pincha ingichka ichak tutilishiga olib keladi. Boshqa asoratlar peritonit yoki ichak teshilishini o'z ichiga olishi mumkin.
+
+                              Bolalardagi sabab odatda noma'lum; kattalarda ba'zan etakchi nuqta mavjud. Bolalardagi xavf omillari orasida ba'zi infektsiyalar, kist fibroz kabi kasalliklar va ichak poliplari mavjud. Kattalardagi xavf omillari orasida endometrioz, ichak yopishqoqligi va ichak o'smalari mavjud. Tashxis ko'pincha tibbiy tasvirlar bilan qo'llab-quvvatlanadi. Bolalarda ultratovush tekshiruvi, kattalarda esa kompyuter tomografiyasi afzallik beriladi.
+
+                              Invaginatsiya - tezkor davolanishni talab qiladigan favqulodda holat. Bolalarda davolash odatda operatsiya bilan ho'qna yordamida amalga oshiriladi, agar bu muvaffaqiyatli bo'lmasa. Deksametazon boshqa epizod xavfini kamaytirishi mumkin. Katta yoshlilarda ichakning bir qismini jarrohlik yo'li bilan olib tashlash ko'proq talab qilinadi. Invaginatsiya bolalarda kattalarga qaraganda tez-tez uchraydi. Bolalarda erkaklar ayollarga qaraganda tez-tez ta'sirlanadi. Odatda paydo bo'lish yoshi olti oydan o'n sakkiz oygacha."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Ko'pincha anamnez va jismoniy tekshiruv, shu jumladan Raqs belgisini kuzatish asosida invajinatsiyadan shubhalanadi. Raqamli rektal tekshiruv bolalarda ayniqsa foydalidir, chunki intussusseptumning bir qismi barmoq bilan sezilishi mumkin. Aniq tashxis ko'pincha diagnostik tasvirlash usullari bilan tasdiqlashni talab qiladi. Ultratovush diagnostikasi va invaginatsiyani istisno qilish uchun tanlangan tasvirlash usuli hisoblanadi, chunki uning yuqori aniqligi va nurlanish yo'qligi. Maqsad belgisining paydo bo'lishi (odatda diametri 3 sm atrofida bo'lgan sonografda 'donut belgisi' deb ham ataladi. Bu tashxisni tasdiqlaydi. Ko'ndalang sonografiya yoki kompyuter tomografiyasida ko'rinadigan rasm donut shakliga o'xshaydi, u giperexoik markaziy yadro tomonidan yaratilgan. ichak va ichak tutqichi gipoexoik tashqi shishi ichak bilan o'ralgan.Bo'ylama tasvirlashda invaginatsiya sendvichga o'xshaydi.U 'psevdobuyrak'' belgisi deb ham ataladi, chunki giperexoik quvurli markaz buyrakka o'xshash ko'rinish hosil qiluvchi gipoexoik hoshiya bilan qoplangan."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

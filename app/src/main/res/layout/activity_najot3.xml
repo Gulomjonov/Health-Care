@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".najot_Activity3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Muzlatilgan homiladorlik (rivojlanmaydigan homiladorlik)"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/bola" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Muzlatilgan homiladorlik - xomilalik tuxum rivojlanishining to'xtashi, homila yoki homilaning bachadonda o'limi, homiladorlikning normal jarayonining buzilishi bilan bog'liq. Bu ko'pincha spontan abort bilan tugaydigan reproduktiv yo'qotishning bir turi. Keyingi homiladorlik uchun prognoz odatda qulaydir."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Kasallikning kelib chiqish sabablari"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:textColor="#082b43"
+                    android:text="Hozirgi vaqtda sabablarning to'rtta toifasi mavjud:
+
+                                    genital organlarning malformatsiyasi;
+                                    embrionning xromosoma va genetik mutatsiyalari abortning asosiy sabablari bo'lib, ular homiladorlikning 80% hollarda aniqlanadi;
+                                    endometriumning patologiyasi (bachadon bo'shlig'ining ichki shilliq qavati), bunda homiladorlikning normal kechishini ta'minlay olmaydi;
+                                    qon ivish tizimidagi o'zgarishlar - irsiy trombofiliya va antifosfolipid sindromi.
+                                    O'tkazib yuborilgan homiladorlik va erta tushishning boshqa sabablari anatomik kasalliklar, infektsiyalar, endokrin kasalliklar, shuningdek toksik, immunologik va boshqa omillar bo'lishi mumkin.
+
+                                    O'tkazib yuborilgan homiladorlikning sababini aniqlash uning takrorlanishini istisno qilishga imkon beradi. Agar turmush o'rtoqlarni tekshirish paytida ushbu patologiyaning sababini aniqlashning iloji bo'lmasa, muvaffaqiyatli keyingi homiladorlik faqat 65% hollarda ruxsat etiladi."
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Erta homiladorlik davrida ayollarni boshqarish simptomlar va tekshiruv natijalariga bog'liq.
+
+                                    Shubhali ultratovush natijalari va abortdan shubha qilingan taqdirda, kutilayotgan taktikaga rioya qilish kerak: takroriy ultratovush yordamida bemorning ahvolini dinamik kuzatish.
+
+                                    Jinsiy yo'ldan qon ketganda, davolanish ginekologik shifoxonada amalga oshiriladi. Bemorga o'tkazib yuborilgan homiladorlik paytida xomilalik xromosoma patologiyasining yuqori chastotasi to'g'risida xabardor qilinishi kerak, kutilayotgan davolanish zarurati va shubhali ultratovush ma'lumotlari bilan tibbiy davolanishning nomaqbulligi tushuntiriladi."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".info_Activity5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Yangi tug'ilgan chaqaloqlarning gemolitik sariqligi"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:src="@drawable/lms" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text=" Yangi tug'ilgan chaqaloqlarda sariqlik - bu giperbilirubinemiya tufayli yuzaga keladigan fiziologik yoki patologik holat bo'lib, ular hayotining birinchi kunlarida terining va ko'rinadigan shilliq pardalarning ikterik bo'yalishi bilan namoyon bo'ladi. Yangi tug'ilgan chaqaloqlarning sariqligi qonda bilirubin kontsentratsiyasining oshishi, kamqonlik, terining sarg'ishi, ko'zning shilliq pardalari va sklerasi, gepato- va splenomegaliya, og'ir holatlarda - bilirubin ensefalopatiyasi bilan tavsiflanadi. Neonatal sariqlikning diagnostikasi Kramer shkalasi bo'yicha sariqlik darajasini vizual baholashga asoslanadi; eritrotsitlar, bilirubin, jigar fermentlari, ona va bolaning qon guruhlari darajasini aniqlash va boshqalar Yangi tug'ilgan chaqaloqlarda sariqlikni davolash emizishni, infuzion terapiyani, fototerapiyani, almashinuvni o'z ichiga oladi."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Sariqlikning oldini olish va giperbilirubinemiya darajasini pasaytirish uchun barcha yangi tug'ilgan chaqaloqlar erta boshlanishi (hayotning birinchi soatidan boshlab) va muntazam ravishda emizish kerak. Yangi tug'ilgan chaqaloqlarda sariqlik bilan chaqaloqlarda tavsiya etilgan emizish chastotasi tungi tanaffussiz kuniga 8-12 marta. Bolaning fiziologik ehtiyoji, enterosorbentlarni qabul qilish bilan solishtirganda suyuqlikning kunlik hajmini 10-20% ga oshirish kerak. Agar og'iz orqali hidratsiya qilish mumkin bo'lmasa, infuzion terapiya o'tkaziladi: glyukoza tomizish, jismoniy. eritma, askorbin kislotasi, kokarboksilaza, B guruhi vitaminlari. Bilirubinning konjugatsiyasini oshirish uchun sariqlik bilan yangi tug'ilgan chaqaloqqa fenobarbital buyurilishi mumkin.
+
+                                  Bilvosita giperbilirubinemiya uchun eng samarali davolash - bu bilvosita bilirubinni suvda eruvchan shaklga aylantiradigan doimiy yoki intervalgacha fototerapiya. Fototerapiyaning asoratlari gipertermiya, suvsizlanish, kuyishlar, allergik reaktsiyalar bo'lishi mumkin.
+
+                                  Yangi tug'ilgan chaqaloqlarning gemolitik sariqligi bilan qon almashinuvi, gemosorbtsiya ko'rsatiladi. Barcha patologik neonatal sariqlik asosiy kasallikni darhol davolashni talab qiladi."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context=".robo_Activity3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Bolalarda asetonemiya sindromi"
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/simptota" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:letterSpacing=".2"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:shadowColor="#f1f1f1"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:text="Asetonemik sindrom - metabolik jarayonlarning buzilishi va bolaning qonida keton tanachalarining to'planishi natijasida yuzaga keladigan simptomlar majmuasi. Asetonemiya sindromi asetonemiya inqirozlari bilan namoyon bo'ladi: takroriy qusish, suvsizlanish, intoksikatsiya, og'izdan aseton hidi, qorin sindromi, subfebril holat. Asetonemiya sindromi klinik ma'lumotlar va laboratoriya parametrlari (ketonuriyaning namoyon bo'lishi, elektrolitlar muvozanati, karbamid darajasining oshishi va boshqalar) asosida tashxis qilinadi. Aseton inqirozi bilan infuzion terapiya, tozalovchi ho'qna, og'iz orqali suvsizlanish va engil uglevodlarni o'z ichiga olgan parhez ko'rsatiladi."
+                android:textColor="#082b43"
+                android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Davolash"
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:letterSpacing=".2"
+                    android:padding="20dp"
+                    android:shadowColor="#f1f1f1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:text="Asetonemik sindromni davolashning asosiy yo'nalishlari inqirozlarni bartaraf etish va interiktal davrlarda parvarishlash terapiyasi bo'lib, alevlenmeler sonini kamaytirishga qaratilgan.
+
+                                  Asetonemiya inqirozi bilan bolani kasalxonaga yotqizish ko'rsatiladi. Ratsionga tuzatish kiritilmoqda: yog'lar qat'iy cheklangan, oson hazm bo'ladigan uglevodlar va ko'p miqdorda fraksiyonel ichish tavsiya etiladi. Natriy bikarbonat eritmasi bilan tozalovchi ho'qna o'rnatish tavsiya etiladi, bu esa ichakka kirgan keton tanalarining bir qismini zararsizlantiradi. Asetonemiya sindromida og'iz regidratsiyasi gidroksidi mineral suv va kombinatsiyalangan eritmalar bilan amalga oshiriladi. Kuchli suvsizlanish bilan infuzion terapiya o'tkaziladi - tomir ichiga 5% glyukoza, sho'r eritmalar. Semptomatik terapiya antiemetiklarni, antispazmodiklarni, sedativlarni kiritishni o'z ichiga oladi. To'g'ri davolanish bilan aseton inqirozining alomatlari 2-5 kun davomida pasayadi.
+
+                                  Interiktal davrlarda pediatr asetonemiya sindromi bo'lgan bolani kuzatadi. To'g'ri ovqatlanishni (sabzavotli sutli parhez, yog'larga boy ovqatlarni cheklash), yuqumli kasalliklar va psixo-emotsional ortiqcha yuklarning oldini olish, suv va qattiqlashuv jarayonlarini (vannalar, kontrastli dushlar, dushlar, ishqalanishlar), etarli uyqu va ta'sir qilishni tashkil qilish kerak. toza havoga.
+
+                                  Asetonemik sindromli bolaga multivitaminlar, gepatoprotektorlar, fermentlar, sedativ terapiya, massajning profilaktik kurslari ko'rsatiladi; koprogramma nazorati. Siydik asetonini nazorat qilish uchun diagnostik test chiziqlari yordamida siydikni keton tanalari tarkibiga mustaqil ravishda tekshirish tavsiya etiladi.
+
+                                  Asetonemiya sindromi bo'lgan bolalar pediatriya endokrinologida ro'yxatdan o'tishlari kerak, har yili qonda glyukoza tekshiruvi, buyraklar ultratovush tekshiruvi va qorin bo'shlig'ining ultratovush tekshiruvidan o'tishlari kerak."
+                    android:textColor="#082b43"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
